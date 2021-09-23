@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-div{
+    padding: 40px 100px 40px 100px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.img-perfil{
+    border: black;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+nav{
+    background-color: mediumspringgreen;
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+ul li a:hover{
+    color: grey;
+}
+
+.li-home{
+    color: darkblue;
+}
+
+hr{
+    width: 50%;
+    margin: 5px auto;
+    
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: darkcyan;
+    height: auto;
+    display: flex;
+}
+
+main section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: end;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+main aside{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.img-aside{
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: coral;
+    height: auto;
+    text-align: center;
+}
+
+footer span{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+/*-------------------------------------------------------*/
+/*Peliculas*/
+.li-peliculas{
+    color: darkblue;
+}
+
+.section_peli_favoritas{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--negro);
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_peli_favoritas_div_head{
+    display: flex;
+}
+
+.section_peli_favoritas_div_head span{
+    color: var(--blanco);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+
+.section_peli_favoritas_div_peliculas{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.peliculas_img:hover{
+    transform: scale(1.2);
+	transform-origin: center;
+}
+
+/*------------------------------------------------------*/
+/*Juegos*/
+
+.li-juegos{
+    color: darkblue;
+}
+
+.section_juegos_favoritos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--negro);
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_juegos_favoritos_div_head{
+    display: flex;
+}
+
+.section_juegos_favoritos_div_head span{
+    color: var(--blanco);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+
+.section_juegos_favoritos_div_juegos{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.juegos_img:hover{
+    transform: scale(1.2);
+	transform-origin: center;
+}
+
+/*------------------------------------------------------*/
+/*Música*/
+
+.li-musica{
+    color: darkblue;
+}
+
+.section_musica_favoritas{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--negro);
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_musica_favoritas_div_head{
+    display: flex;
+}
+
+.section_musica_favoritas_div_head span{
+    color: var(--blanco);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+
+.section_musica_favoritas_div_div{
+    text-align: center;  
+}
+
+.section_musica_favoritas_div_div span{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color:darkkhaki;
+    display: grid;   
+}
